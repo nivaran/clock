@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="real time clock">
+<script src="lo.js"></script>
+<link rel="stylesheet" href="front.css">
+</head>
+
+<body>
+<h1>
+select country to see good Time 
+</h1>
+
+<form>
+    <label><b>SELECT  <i>COUNTRY</i> : <b></label>
+    <select onchange="timezone(this.value)" name="raja">
+          <option value="cindia">SELECT</option>
+          <option value="cindia">INDIA</option>
+          <option value="camerica">AMERICA</option>
+          <option value="ceurope">EUROPE</option>
+    </select>
+</form>
+
+<h2>
+<span id="new"></span>
+</h2>
+
+</body>
+</html>

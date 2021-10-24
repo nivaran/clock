@@ -1,0 +1,48 @@
+html{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("mountains.jpg");
+    height: 100%;
+    width: 100%;
+    line-height: 120px;  
+}
+h1{
+    font-size: 35px;
+    font-family: fantasy;
+    line-height: 80px;
+    word-spacing: 12px;
+    letter-spacing: 5px; 
+    margin-left: 350px;
+}
+h1:hover
+{
+    color: chocolate;
+    transition: 0.5s;
+}
+h2{
+    margin-left: -250px;
+    color:rgb(151, 19, 19) ;
+    letter-spacing:1.5px; 
+    word-spacing:10px ;
+    font-size: 50px;
+}
+select{
+    height: 40px;
+    width: 150px;
+    outline-style: dotted;
+    outline-width: thin;
+    font-size: 20px;   
+}
+form{
+    word-spacing: 10px;
+    letter-spacing: 1.5px;
+    margin-top: 10px; ;
+    margin-left: 500px;
+}
+select:focus{
+    color:rgb(216, 46, 75);
+}
+i{
+    color:rgb(216, 46, 75); 
+    font-size: 20px;
+}
