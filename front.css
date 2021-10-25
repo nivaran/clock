@@ -13,6 +13,7 @@ h1{
     word-spacing: 12px;
     letter-spacing: 5px; 
     margin-left: 350px;
+    text-shadow: 1px 1px burlywood;
 }
 h1:hover
 {
